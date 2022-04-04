@@ -13,6 +13,6 @@ const calcDashoffset = (scrollY, element, length) => {
 };
 
 window.addEventListener("scroll", () => {
-  const scrollY = window.scrollY + window.innerHeight;
+  const scrollY = window.scrollY + window.innerHeight * 0.8;
   path.style.strokeDashoffset = calcDashoffset(scrollY, content, pathLength);
 });
