@@ -9,7 +9,9 @@
   stroke-width: 3px;
 }
 
-.path1 {
+.path1,
+.path2,
+.path3 {
   stroke: #000;
 }
 
